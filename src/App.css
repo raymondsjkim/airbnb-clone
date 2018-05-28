@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -25,4 +25,30 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+} */
+
+.app {
+  display: flex;
+  border: 1px solid black;
+}
+
+.main {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.map {
+  flex-grow: 1;
+  height: 100vh;
+  top: 0;
+  position: sticky;
+  border: 1px solid black;
+}
+
+.flats {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }

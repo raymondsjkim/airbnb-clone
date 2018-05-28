@@ -1,10 +1,12 @@
 import React from "react";
 import "./flat.css";
 
+// NOTE: VIDEO STOPPED AT 58:52
+
 class Flat extends React.Component {
     render() {
-        this.props.flat.name
-        console.log(this.props.flat.name);
+        // this.props.flat.name
+        // console.log(this.props.flat.name);
 
         const title = this.props.flat.price 
             + this.props.flat.priceCurrency 
